@@ -82,7 +82,7 @@ public class Post {
     public void setAuthor(Author author){
         this.author = author;
     }
-    
+
     @Override
     public boolean equals(Object obj) {
         if (!(obj instanceof Post))
